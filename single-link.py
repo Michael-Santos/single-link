@@ -198,6 +198,7 @@ def main():
 			# calcula Ar
 			indiceRand = adjusted_rand_score(resultado, esperado)
 			print("AR: " + str(indiceRand))
+			escreveParticaoArquivo('c2ds1-2spK' + str(len(clusters)) + '.txt', conjuntoDados)
 			break
 
 if __name__ == "__main__":
