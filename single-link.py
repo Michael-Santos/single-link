@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import math
+import random
+from sklearn.metrics.cluster import adjusted_rand_score
 
 #########################################
 # Dado de entrada
